@@ -1,0 +1,186 @@
+{
+  "release_kind": "WATraj target-motion preview; not an official evaluation subset",
+  "format": "NumPy compressed NPZ, numeric arrays only; load with allow_pickle=False",
+  "arrays": {
+    "trajectories": {
+      "shape": [
+        64,
+        80,
+        6
+      ],
+      "dtype": "float64",
+      "axes": [
+        "sample",
+        "time",
+        "feature"
+      ]
+    },
+    "maneuver_labels": {
+      "shape": [
+        64,
+        1
+      ],
+      "dtype": "float64",
+      "mapping_from_archived_preprocessing": {
+        "0": "left lane change",
+        "1": "lane keeping",
+        "2": "right lane change"
+      },
+      "counts": {
+        "0": 22,
+        "1": 19,
+        "2": 23
+      }
+    },
+    "source_row_indices": {
+      "shape": [
+        64
+      ],
+      "dtype": "int64",
+      "indexing": "zero-based source X_valid_0.npy row"
+    }
+  },
+  "sampling": {
+    "stored_frequency_hz": 10,
+    "step_seconds": 0.1,
+    "time_order": "chronological",
+    "history_steps": 30,
+    "future_steps": 50,
+    "archived_model_transform": "trajectories[:, ::2, :] gives 40 target-state steps at 5 Hz (15 history, 25 future); additional neighbor and map inputs are required by the model"
+  },
+  "coordinates": {
+    "order_in_first_two_features": [
+      "y_center",
+      "x_center"
+    ],
+    "description": "site-local field coordinates; use feature 1 for plot horizontal x and feature 0 for plot vertical y; no latitude/longitude"
+  },
+  "fields": [
+    {
+      "index": 0,
+      "name": "target_y_center",
+      "unit": "m"
+    },
+    {
+      "index": 1,
+      "name": "target_x_center",
+      "unit": "m"
+    },
+    {
+      "index": 2,
+      "name": "target_y_velocity",
+      "unit": "m/s"
+    },
+    {
+      "index": 3,
+      "name": "target_x_velocity",
+      "unit": "m/s"
+    },
+    {
+      "index": 4,
+      "name": "target_y_acceleration",
+      "unit": "m/s^2"
+    },
+    {
+      "index": 5,
+      "name": "target_x_acceleration",
+      "unit": "m/s^2"
+    }
+  ],
+  "source": {
+    "archive_sha256": "e70ff8ef6342f3cb0b1a339b760d86c3adf4c09f8775ae6f7f7333eb8a6c08ec",
+    "x_member": "tianjin/down_sampling_3s_5s/X_valid_0.npy",
+    "x_member_sha256": "deb56e95dbe198ff71adae65c901a3e511fe961bd4ccfaa2889b1f364a59cb98",
+    "y_member": "tianjin/down_sampling_3s_5s/y_valid_0.npy",
+    "y_member_sha256": "be7d5fefb66a39424f643748dd1adb549be4047c53199e204c29b7ea944fadf7",
+    "x_shape": [
+      7338,
+      80,
+      44
+    ],
+    "y_shape": [
+      7338,
+      1
+    ]
+  },
+  "selection": {
+    "seed": 20260911,
+    "numpy_bit_generator": "PCG64",
+    "count": 64,
+    "expression": "np.sort(np.random.default_rng(20260911).choice(7338, size=64, replace=False))",
+    "source_row_indices": [
+      14,
+      221,
+      244,
+      359,
+      449,
+      673,
+      748,
+      1036,
+      1043,
+      1126,
+      1232,
+      1307,
+      1320,
+      1794,
+      1819,
+      1898,
+      2007,
+      2201,
+      2219,
+      2240,
+      2269,
+      2421,
+      2468,
+      2528,
+      2600,
+      2693,
+      2981,
+      3095,
+      3368,
+      3430,
+      3455,
+      3458,
+      3480,
+      4014,
+      4094,
+      4271,
+      4427,
+      4522,
+      4793,
+      4825,
+      4830,
+      4972,
+      5106,
+      5133,
+      5290,
+      5301,
+      5314,
+      5368,
+      5458,
+      5514,
+      5593,
+      5623,
+      5818,
+      5884,
+      5985,
+      6139,
+      6350,
+      6360,
+      6382,
+      6414,
+      6510,
+      6524,
+      6790,
+      6819
+    ],
+    "not_selected_by_prediction_error": true
+  },
+  "file_sha256": "97804ef98ddfc2b13da39c60c17382f296966360a6fea4878ad1637fc80bd1dd",
+  "limitations": [
+    "Only target-vehicle motion is included; neighbor states and local-map inputs are not part of this preview.",
+    "No model predictions or raw imagery are included.",
+    "This preview cannot reproduce full-paper metrics or establish the effect of interaction modeling.",
+    "No vehicle ID, recording ID, absolute timestamp, plate, face, name, or contact field is included."
+  ]
+}
