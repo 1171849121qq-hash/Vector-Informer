@@ -40,9 +40,8 @@ future = states_5hz[:, 15:, :]         # 25 future ground-truth states
 
 ## Release scope
 
-This initial release provides a compact subset for inspecting the trajectory format and using the loading example. The 64 windows were selected using a fixed random seed, without filtering by model prediction error.
-
-It contains target-vehicle motion only. Neighbor features, paired local maps, the full training/evaluation pipeline, and pretrained checkpoints are being prepared for subsequent releases. This preview is not an official benchmark split and does not reproduce the paper's aggregate metrics.
+This initial release provides a compact subset for inspecting the trajectory format and using the loading example. 
+It contains target-vehicle motion only. Neighbor features, paired local maps, the full training/evaluation pipeline, and pretrained checkpoints are being prepared for subsequent releases.
 
 Updates will be published in this repository. Thank you for your interest and patience.
 
