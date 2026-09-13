@@ -2,7 +2,7 @@
 
 Vector-Informer is a relation-first road-conditioning framework for long-horizon vehicle trajectory prediction in freeway weaving areas, developed alongside the WATraj dataset.
 
-## Initial data release — September 11, 2026
+## Initial data release — September, 2026
 
 A small **WATraj target-motion preview** is now available: **64 real trajectory windows**, each containing 80 recorded states at 10 Hz. The download is approximately **211 KiB** and includes target positions, velocities, accelerations, maneuver labels, and source row indices.
 
