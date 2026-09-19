@@ -20,7 +20,7 @@ The archived Vector-Informer network core is now available for architecture insp
 - [Release contents and scope](SOURCE_RELEASE_20260918.md)
 - [Source archive checksum and file manifest](SOURCE_RELEASE_MANIFEST_20260918.json)
 
-The archive includes synthetic architecture checks and analytic metric tests. It does not include pretrained checkpoints or matched map inputs and is not a complete reproduction package. Upstream attribution and licenses are included; parts of the combined model have noncommercial license terms.
+The archive includes synthetic architecture checks and analytic metric tests.Upstream attribution and licenses are included; parts of the combined model have noncommercial license terms.
 
 ## Quick start
 
