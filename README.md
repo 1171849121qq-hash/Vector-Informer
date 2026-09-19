@@ -2,6 +2,29 @@
 
 Vector-Informer is a relation-first road-conditioning framework for long-horizon vehicle trajectory prediction in freeway weaving areas, developed alongside the WATraj dataset.
 
+## WATraj overview
+
+WATraj is a topology-rich trajectory dataset collected in a real Chinese
+freeway-weaving area. It combines sustained overhead observation, dense
+vehicle interactions, enriched kinematics, lane assignments, vectorized road
+geometry and explicit lane connectivity.
+
+| Item | WATraj |
+|---|---:|
+| Recordings | 6 |
+| Video source | 4K UAV video (3840 × 2160, 30 fps) |
+| Total duration | 57 min 47 s |
+| Vehicle states | 1,495,161 |
+| Processed trajectory rate | 10 Hz |
+| Traffic scene | Sparse-to-dense freeway weaving |
+| Lane topology | Continuity / adjacency / merge / diverge |
+| Topology inventory | 10 lane regions, 18 directed lane pairs, 19 typed relation labels |
+
+These figures describe the complete WATraj corpus presented in the paper. The
+currently public review-stage release is the 512-window processed interaction
+subset below. It does not yet include the complete raw recordings or matched
+vector-map inputs.
+
 ## WATraj interaction dataset preview — September 2026
 
 The primary dataset preview contains **512 real processed trajectory windows**
