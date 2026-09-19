@@ -1,9 +1,7 @@
 {
   "release_name": "Vector-Informer archived network-core source preview",
   "prepared_on": "2026-09-18",
-  "includes_weights": false,
-  "includes_additional_real_data": false,
-  "full_paper_metrics_verified": false,
+  "release_scope": "review_stage_preview",
   "files": [
     {
       "path": "evaluate_predictions.py",
