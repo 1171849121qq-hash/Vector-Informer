@@ -1,0 +1,123 @@
+{
+  "release_name": "Vector-Informer archived network-core source preview",
+  "prepared_on": "2026-09-18",
+  "release_scope": "review_stage_preview",
+  "files": [
+    {
+      "path": "evaluate_predictions.py",
+      "bytes": 8210,
+      "sha256": "50fde72d08246ab0d5caad62aa82d41e063e115b6e754824cf0083fffa5412ba"
+    },
+    {
+      "path": "LICENSE.md",
+      "bytes": 2193,
+      "sha256": "4edd99918af715b282928e462a47dbf8e8332b21b8bd3d7a5a7b1c96abc0de42"
+    },
+    {
+      "path": "licenses/CRAT-Pred-CC-BY-NC-4.0.txt",
+      "bytes": 19921,
+      "sha256": "327a71fc6dde573ec05f9b931c63da6561c9622258bb8636fe5d353ec92c1dd8"
+    },
+    {
+      "path": "licenses/Informer-Apache-2.0.txt",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "licenses/SocialGAN-MIT.txt",
+      "bytes": 1092,
+      "sha256": "431173afd0d765316a1ac50c7f15e45dd5a9a93862381e518d089f55fb6f1510"
+    },
+    {
+      "path": "model_config.py",
+      "bytes": 907,
+      "sha256": "c26c74aa699b8506f93d6a898bacfdc8ab2ab2e24e110e7a1571905783046ec9"
+    },
+    {
+      "path": "models/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "models/attn.py",
+      "bytes": 6590,
+      "sha256": "2a8f9841596187a3dce30fdafb7beed666b94ae7de33627bb5af5b629a1bf390"
+    },
+    {
+      "path": "models/decoder.py",
+      "bytes": 2443,
+      "sha256": "8e300ac3de09f82cd9b9852a3bae2d67221ae7e12b116d57392230abacb87c52"
+    },
+    {
+      "path": "models/embed.py",
+      "bytes": 4680,
+      "sha256": "58fd499ab655eda3bbf1c54901b0a8f61dc4b61d2419ca980a126084a919ead2"
+    },
+    {
+      "path": "models/encoder.py",
+      "bytes": 4369,
+      "sha256": "64402cd733cb69ff8583c7e3de561d916cec2dc36b1d7f8239f4b9a66229f2c0"
+    },
+    {
+      "path": "models/model.py",
+      "bytes": 21991,
+      "sha256": "dde5e9a9831e5af93bdce4b669646b55e00ca9d1161eec38c3cac18248225e03"
+    },
+    {
+      "path": "models/social_pooling.py",
+      "bytes": 7647,
+      "sha256": "f18e8cc748694dd43e51cf09dbc57b2e807dcddac9e866ca0aabe23bb0dd7c8a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7105,
+      "sha256": "f08640882f1292e8096afc9387ee4516482a73866a6b6add7f41f6392b8753be"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 227,
+      "sha256": "487d83bf9cf47dfe71e039ed9c15fbed1a20a5c572cb24d5d13442c5d94999eb"
+    },
+    {
+      "path": "run_inference.py",
+      "bytes": 3077,
+      "sha256": "aa676de9f1d9b180504521024320a0852bf239596a10afd10d545191816b04de"
+    },
+    {
+      "path": "smoke_test.py",
+      "bytes": 1028,
+      "sha256": "8e84993ba77c4694d9f2f8e36492ba5f2cbe59895117aeafae4ab5f16f7e5133"
+    },
+    {
+      "path": "SOURCE_PROVENANCE.json",
+      "bytes": 3684,
+      "sha256": "2757fdaf94ce6e80404960333adf4a441b52fb6b2967158f46a7c27620cb5bcc"
+    },
+    {
+      "path": "test_metrics.py",
+      "bytes": 4771,
+      "sha256": "e8ce73321156f53ab79d091c8e9aea7499d44fdb64323d9e8516c319c6ef63dd"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 2800,
+      "sha256": "9c9ccf55f0a05b6afa0757975768ad96168d2d5827554a0d66eb3f98a9106821"
+    },
+    {
+      "path": "utils/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "utils/masking.py",
+      "bytes": 1082,
+      "sha256": "c3b507aba4e16329206eb29426f214a1d5f38af34f5ab6237538901b55f20715"
+    }
+  ],
+  "archive": {
+    "name": "vector_informer_source_preview_20260918.zip",
+    "bytes": 43183,
+    "sha256": "ca216f73a1903380045c6997847651dce637f6d10736015804973a38607bc60f",
+    "file_count": 23
+  }
+}
