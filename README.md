@@ -12,6 +12,16 @@ A small **WATraj target-motion preview** is now available: **64 real trajectory 
 - [Data loading and visualization example](inspect_sample.py)
 - [Preview of 12 released trajectories](preview.svg)
 
+## Network-core source preview — September 2026
+
+The archived Vector-Informer network core is now available for architecture inspection, together with CPU inference and coordinate-RMSE metric helpers.
+
+- [Download the source archive](vector_informer_source_preview_20260918.zip)
+- [Release contents and scope](SOURCE_RELEASE_20260918.md)
+- [Source archive checksum and file manifest](SOURCE_RELEASE_MANIFEST_20260918.json)
+
+The archive includes synthetic architecture checks and analytic metric tests. It does not include pretrained checkpoints or matched map inputs and is not a complete reproduction package. Upstream attribution and licenses are included; parts of the combined model have noncommercial license terms.
+
 ## Quick start
 
 Download the repository, then run:
